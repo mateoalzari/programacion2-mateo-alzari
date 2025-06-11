@@ -5,7 +5,7 @@ public class Main {
 
         Funciones.saludar("Mateo");
 
-        Funciones.areaRectangulo(5, 10);
+        System.out.println("Área: " + Funciones.areaRectangulo(5, 10));
 
         Funciones.convertirMayusculas("hola mundo");
 
@@ -17,7 +17,7 @@ public class Main {
 
         Funciones.factorial(891);
 
-        Funciones.sumaNumeros();
+
 
     }
 }
