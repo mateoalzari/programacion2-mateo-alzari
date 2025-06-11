@@ -55,4 +55,15 @@ public class Funciones {
         }
         return contador;
     }
+    public static void imprimirArray(int[] array) {
+        System.out.println("[");
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+            if (i<array.length -1){
+                System.out.print(", ");
+            }
+        }
+        System.out.println("]");
+    }
+    public static int[] invertirArray()
 }
