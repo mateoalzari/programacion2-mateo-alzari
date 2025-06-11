@@ -30,5 +30,9 @@ public class Main {
         System.out.println("Ocurrencias de hola: " + Funciones.contarOcurrencias(palabras, "hola"));
 
 
+        System.out.println("Array original: " );
+        Funciones.imprimirArray(numeros);
+
+
     }
 }
