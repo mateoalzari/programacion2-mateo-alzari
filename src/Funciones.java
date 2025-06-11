@@ -42,5 +42,11 @@ public class Funciones {
         }
         return suma / numeros.length;
     }
-    public static boolean buscarValor(int[] array)
+    public static boolean buscarValor(int[] array, int valor){
+        for (int n : array) {
+            if (n == valor) return true;
+        }
+        return false;
+    }
+
 }
