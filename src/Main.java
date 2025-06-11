@@ -8,4 +8,7 @@ public class Main {
     public static double areaRectangulo(double base, double altura){
         return base * altura;
     }
+    public static String convertirMayusculas(String texto){
+        return texto.toUpperCase();
+    }
 }
