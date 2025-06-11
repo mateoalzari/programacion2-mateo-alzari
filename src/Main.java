@@ -25,5 +25,10 @@ public class Main {
 
         int[] numeros = {3, 8, 2, 5, 9};
         System.out.println("¿Está El número 5?" + Funciones.buscarValor(numeros, 5));
+
+        String[] palabras = {"hola", "adios", "profe", "hola", "queso", "hola"};
+        System.out.println("Ocurrencias de hola: " + Funciones.contarOcurrencias(palabras, "hola"));
+
+
     }
 }
