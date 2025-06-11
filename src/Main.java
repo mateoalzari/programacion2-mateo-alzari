@@ -20,5 +20,10 @@ public class Main {
 
         System.out.println("Suma: " + Funciones.sumaNumeros(new int[]{1, 2, 3, 4, 5}));
 
+        double[] notas = {7.5, 8.0, 6.0, 10.0};
+        System.out.println("Promedio: " + Funciones.promedio(notas));
+
+        int[] numeros = {3, 8, 2, 5, 9};
+        System.out.println("¿Está El número 5?" + Funciones.buscarValor(numeros, 5));
     }
 }
