@@ -23,4 +23,8 @@ public class Funciones {
     public static int cuadrado (int numero){
         return numero * numero;
     }
+    public static long factorial (int n){
+        if (n <= 1) return 1;
+        return n * factorial(n-1);
+    }
 }
