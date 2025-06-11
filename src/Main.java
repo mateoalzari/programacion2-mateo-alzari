@@ -11,5 +11,13 @@ public class Main {
 
         Funciones.mostrarMenu();
 
+        Funciones.esPar(8);
+
+        Funciones.cuadrado(41);
+
+        Funciones.factorial(891);
+
+        Funciones.sumaNumeros();
+
     }
 }
