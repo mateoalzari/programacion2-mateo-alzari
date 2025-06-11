@@ -27,4 +27,12 @@ public class Funciones {
         if (n <= 1) return 1;
         return n * factorial(n-1);
     }
+    public static int sumaNumeros(int[] numeros){
+        int suma = 0;
+        for (int n : numeros) {
+            suma += n;
+        }
+        return suma;
+    }
+    public static double promedio
 }
