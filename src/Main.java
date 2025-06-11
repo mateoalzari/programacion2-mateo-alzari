@@ -3,6 +3,8 @@ public class Main {
         Funciones Funciones = new Funciones();
         Funciones.mostrarSaludo();
         Funciones.saludar();
+        Funciones.areaRectangulo();
+        Funciones.convertirMayusculas();
 
     }
 }
