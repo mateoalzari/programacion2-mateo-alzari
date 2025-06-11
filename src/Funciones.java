@@ -65,5 +65,11 @@ public class Funciones {
         }
         System.out.println("]");
     }
-    public static int[] invertirArray()
+    public static int[] invertirArray(int[] array) {
+        int[] invertido = new int[array.length];
+        for (int i = 0; i < array.length; i++) {
+            invertido[i] = array[array.length - 1 - i];
+        }
+        return invertido;
+    }
 }
