@@ -9,6 +9,5 @@ public class Persona {
     private String telefono;
 
     public Persona (String nombre, String apellido, String numeroIdentificacion, int edad, String direccion, String telefono) {
-
     }
 }
