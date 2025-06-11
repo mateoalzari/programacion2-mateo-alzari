@@ -11,9 +11,10 @@ public class Main {
 
         Funciones.mostrarMenu();
 
-        Funciones.esPar(8);
+        System.out.println("¿Es par?: " + Funciones.esPar(8));
 
-        Funciones.cuadrado(41);
+
+        System.out.println("Cuadrado: " + Funciones.cuadrado(4));
 
         Funciones.factorial(891);
 
