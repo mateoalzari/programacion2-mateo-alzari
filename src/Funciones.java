@@ -1,4 +1,4 @@
-public class Main {
+public class Funciones {
     public static void mostrarSaludo() {
         System.out.println("Hola,mundo");
     }
@@ -10,5 +10,11 @@ public class Main {
     }
     public static String convertirMayusculas(String texto){
         return texto.toUpperCase();
+    }
+    public static void mostrarMenu(){
+        System.out.println("Menú de opciones");
+        System.out.println("1 Ver imágenes");
+        System.out.println("2 Subir imágenes");
+        System.out.println("3 Salir");
     }
 }
