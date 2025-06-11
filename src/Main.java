@@ -16,9 +16,9 @@ public class Main {
 
         System.out.println("Cuadrado: " + Funciones.cuadrado(4));
 
-        Funciones.factorial(891);
+        System.out.println("Factorial: " + Funciones.factorial(5));
 
-
+        System.out.println("Suma: " + Funciones.sumaNumeros(new int[]{1, 2, 3, 4, 5}));
 
     }
 }
