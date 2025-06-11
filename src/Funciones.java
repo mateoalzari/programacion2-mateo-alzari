@@ -34,5 +34,13 @@ public class Funciones {
         }
         return suma;
     }
-    public static double promedio
+    public static double promedio(double[] numeros) {
+        if (numeros.length == 0) return 0;
+        double suma = 0;
+        for (double n : numeros) {
+            suma += n;
+        }
+        return suma / numeros.length;
+    }
+    public static boolean buscarValor(int[] array)
 }
