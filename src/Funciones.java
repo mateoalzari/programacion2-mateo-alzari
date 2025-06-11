@@ -48,5 +48,11 @@ public class Funciones {
         }
         return false;
     }
-
+    public static int contarOcurrencias(String[] array, String clave) {
+        int contador = 0;
+        for (String s : array) {
+            if (s.equals(clave)) contador++;
+        }
+        return contador;
+    }
 }
