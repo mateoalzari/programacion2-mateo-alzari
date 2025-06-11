@@ -17,4 +17,7 @@ public class Funciones {
         System.out.println("2 Subir imágenes");
         System.out.println("3 Salir");
     }
+    public static boolean esPar(int numero){
+        return numero % 2 == 0;
+    }
 }
