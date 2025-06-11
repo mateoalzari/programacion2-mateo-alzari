@@ -33,6 +33,8 @@ public class Main {
         System.out.println("Array original: " );
         Funciones.imprimirArray(numeros);
 
-
+        int[] invertido = Funciones.invertirArray(numeros);
+        System.out.println("Array invertido: ");
+        Funciones.imprimirArray(invertido);
     }
 }
