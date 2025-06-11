@@ -1,4 +1,5 @@
 public class Funciones {
+    //nivel 1
     public static void mostrarSaludo() {
         System.out.println("Hola,mundo");
     }
@@ -17,6 +18,7 @@ public class Funciones {
         System.out.println("2 Subir imágenes");
         System.out.println("3 Salir");
     }
+    //nivel 2
     public static boolean esPar(int numero){
         return numero % 2 == 0;
     }
@@ -27,6 +29,7 @@ public class Funciones {
         if (n <= 1) return 1;
         return n * factorial(n-1);
     }
+    //nivel 3
     public static int sumaNumeros(int[] numeros){
         int suma = 0;
         for (int n : numeros) {
@@ -55,6 +58,7 @@ public class Funciones {
         }
         return contador;
     }
+    //nivel 4
     public static void imprimirArray(int[] array) {
         System.out.println("[");
         for (int i = 0; i < array.length; i++) {
