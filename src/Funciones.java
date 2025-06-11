@@ -20,4 +20,7 @@ public class Funciones {
     public static boolean esPar(int numero){
         return numero % 2 == 0;
     }
+    public static int cuadrado (int numero){
+        return numero * numero;
+    }
 }
