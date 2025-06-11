@@ -7,7 +7,7 @@ public class Main {
 
         System.out.println("Área: " + Funciones.areaRectangulo(5, 10));
 
-        Funciones.convertirMayusculas("hola mundo");
+        System.out.println(Funciones.convertirMayusculas("hola mundo"));
 
         Funciones.mostrarMenu();
 
