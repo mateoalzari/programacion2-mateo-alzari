@@ -72,4 +72,16 @@ public class Funciones {
         }
         return invertido;
     }
+    public static String mejorEstudiante(String[] nombres, double[] notas){
+        if (nombres.length == 0 || nombres.length != notas.length) return null;
+        String mejor = nombres[0];
+        double notaAlta = notas [0];
+        for (int i = 1; i < notas.length; i++){
+            if (notas[i] > notaAlta){
+                notaAlta = notas[i];
+                mejor = nombres[i];
+            }
+        }
+        return mejor;
+    }
 }
